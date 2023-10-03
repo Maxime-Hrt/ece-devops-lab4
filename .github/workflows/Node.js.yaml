@@ -1,6 +1,10 @@
 name: Node.js CI
 
-on: [push]
+on:
+  push:
+    branches: [ "dev-Maxime", "dev-Maxence" ]
+  pull_request:
+    branches: [ "dev-Maxime", "dev-Maxence" ]
 
 jobs:
   build:
